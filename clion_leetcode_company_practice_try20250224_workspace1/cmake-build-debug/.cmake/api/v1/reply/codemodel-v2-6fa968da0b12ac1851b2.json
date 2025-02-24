@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "clion_leetcode_company_practice_try20250224_workspace1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "y2025_ibm_t1768_MergeStringsAlternately::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-y2025_ibm_t1768_MergeStringsAlternately-Debug-f6d413c338a6209f012f.json",
+					"name" : "y2025_ibm_t1768_MergeStringsAlternately",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug",
+		"source" : "/home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

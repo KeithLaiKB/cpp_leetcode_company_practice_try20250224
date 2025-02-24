@@ -1,0 +1,4 @@
+# ninja log v5
+0	39	1740437784640007247	build.ninja	af21be1365ccdb6
+0	1736	1740437566486432400	CMakeFiles/y2025_ibm_t1768_MergeStringsAlternately.dir/mysrc/company2025/IBM/t1768_MergeStringsAlternately/y2025_ibm_t1768_MergeStringsAlternately.cpp.o	e50a30f877dc5de
+1736	1822	1740437566579436096	y2025_ibm_t1768_MergeStringsAlternately	553dc55811a074cf
