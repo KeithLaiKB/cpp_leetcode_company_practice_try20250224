@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -43,6 +45,13 @@
 					"id" : "y2025_ibm_t1768_MergeStringsAlternately::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-y2025_ibm_t1768_MergeStringsAlternately-Debug-f6d413c338a6209f012f.json",
 					"name" : "y2025_ibm_t1768_MergeStringsAlternately",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity-Debug-6117d5ad01a2a0e7ab77.json",
+					"name" : "y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity",
 					"projectIndex" : 0
 				},
 				{
