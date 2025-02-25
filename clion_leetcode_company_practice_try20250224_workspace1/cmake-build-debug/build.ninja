@@ -71,6 +71,37 @@ build y2025_ibm_t1768_MergeStringsAlternately: CXX_EXECUTABLE_LINKER__y2025_ibm_
   TARGET_FILE = y2025_ibm_t1768_MergeStringsAlternately
   TARGET_PDB = y2025_ibm_t1768_MergeStringsAlternately.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+
+
+#############################################
+# Order-only phony target for y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+
+build cmake_object_order_depends_target_y2025_ibm_t2580_CountWaystoGroupOverlappingRanges: phony || CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir
+
+build CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir/mysrc/company2025/IBM/t2580_CountWaystoGroupOverlappingRanges/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp.o: CXX_COMPILER__y2025_ibm_t2580_CountWaystoGroupOverlappingRanges_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/IBM/t2580_CountWaystoGroupOverlappingRanges/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp || cmake_object_order_depends_target_y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+  DEP_FILE = CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir/mysrc/company2025/IBM/t2580_CountWaystoGroupOverlappingRanges/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir
+  OBJECT_FILE_DIR = CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir/mysrc/company2025/IBM/t2580_CountWaystoGroupOverlappingRanges
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+
+
+#############################################
+# Link the executable y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+
+build y2025_ibm_t2580_CountWaystoGroupOverlappingRanges: CXX_EXECUTABLE_LINKER__y2025_ibm_t2580_CountWaystoGroupOverlappingRanges_Debug CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir/mysrc/company2025/IBM/t2580_CountWaystoGroupOverlappingRanges/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+  TARGET_PDB = y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -105,7 +136,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
 
-build all: phony y2025_ibm_t1768_MergeStringsAlternately
+build all: phony y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
 
 # =============================================================================
 # Built-in targets

@@ -1,5 +1,6 @@
 /home/kt/MySoftware/MyProgram/JetBrains/Clion/clion-2023.3.4/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/kt/MySoftware/MyProgram/JetBrains/Clion/clion-2023.3.4/bin/ninja/linux/x64/ninja -G Ninja -S /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1 -B /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
     -- src/y2025_ibm_t1768_MergeStringsAlternately.cpp will be compiled to bin/y2025_ibm_t1768_MergeStringsAlternately
+    -- src/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp will be compiled to bin/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug

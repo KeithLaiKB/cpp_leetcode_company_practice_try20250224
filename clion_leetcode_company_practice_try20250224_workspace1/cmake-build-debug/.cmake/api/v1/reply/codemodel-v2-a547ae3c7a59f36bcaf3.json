@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "clion_leetcode_company_practice_try20250224_workspace1",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "y2025_ibm_t1768_MergeStringsAlternately::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-y2025_ibm_t1768_MergeStringsAlternately-Debug-f6d413c338a6209f012f.json",
 					"name" : "y2025_ibm_t1768_MergeStringsAlternately",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "y2025_ibm_t2580_CountWaystoGroupOverlappingRanges::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-y2025_ibm_t2580_CountWaystoGroupOverlappingRanges-Debug-dc457352f624150550e1.json",
+					"name" : "y2025_ibm_t2580_CountWaystoGroupOverlappingRanges",
 					"projectIndex" : 0
 				}
 			]
