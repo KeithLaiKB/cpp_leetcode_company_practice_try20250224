@@ -164,6 +164,68 @@ build y2025_ibm_t2580_CountWaystoGroupOverlappingRanges: CXX_EXECUTABLE_LINKER__
   TARGET_FILE = y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
   TARGET_PDB = y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target y2025_ibm_t56_MergeIntervals
+
+
+#############################################
+# Order-only phony target for y2025_ibm_t56_MergeIntervals
+
+build cmake_object_order_depends_target_y2025_ibm_t56_MergeIntervals: phony || CMakeFiles/y2025_ibm_t56_MergeIntervals.dir
+
+build CMakeFiles/y2025_ibm_t56_MergeIntervals.dir/mysrc/company2025/IBM/t56_MergeIntervals/y2025_ibm_t56_MergeIntervals.cpp.o: CXX_COMPILER__y2025_ibm_t56_MergeIntervals_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/IBM/t56_MergeIntervals/y2025_ibm_t56_MergeIntervals.cpp || cmake_object_order_depends_target_y2025_ibm_t56_MergeIntervals
+  DEP_FILE = CMakeFiles/y2025_ibm_t56_MergeIntervals.dir/mysrc/company2025/IBM/t56_MergeIntervals/y2025_ibm_t56_MergeIntervals.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t56_MergeIntervals.dir
+  OBJECT_FILE_DIR = CMakeFiles/y2025_ibm_t56_MergeIntervals.dir/mysrc/company2025/IBM/t56_MergeIntervals
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target y2025_ibm_t56_MergeIntervals
+
+
+#############################################
+# Link the executable y2025_ibm_t56_MergeIntervals
+
+build y2025_ibm_t56_MergeIntervals: CXX_EXECUTABLE_LINKER__y2025_ibm_t56_MergeIntervals_Debug CMakeFiles/y2025_ibm_t56_MergeIntervals.dir/mysrc/company2025/IBM/t56_MergeIntervals/y2025_ibm_t56_MergeIntervals.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t56_MergeIntervals.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = y2025_ibm_t56_MergeIntervals
+  TARGET_PDB = y2025_ibm_t56_MergeIntervals.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target y2025_ibm_t5_LongestPalindromicSubstring
+
+
+#############################################
+# Order-only phony target for y2025_ibm_t5_LongestPalindromicSubstring
+
+build cmake_object_order_depends_target_y2025_ibm_t5_LongestPalindromicSubstring: phony || CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir
+
+build CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir/mysrc/company2025/IBM/t5_LongestPalindromicSubstring/y2025_ibm_t5_LongestPalindromicSubstring.cpp.o: CXX_COMPILER__y2025_ibm_t5_LongestPalindromicSubstring_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/IBM/t5_LongestPalindromicSubstring/y2025_ibm_t5_LongestPalindromicSubstring.cpp || cmake_object_order_depends_target_y2025_ibm_t5_LongestPalindromicSubstring
+  DEP_FILE = CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir/mysrc/company2025/IBM/t5_LongestPalindromicSubstring/y2025_ibm_t5_LongestPalindromicSubstring.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir
+  OBJECT_FILE_DIR = CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir/mysrc/company2025/IBM/t5_LongestPalindromicSubstring
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target y2025_ibm_t5_LongestPalindromicSubstring
+
+
+#############################################
+# Link the executable y2025_ibm_t5_LongestPalindromicSubstring
+
+build y2025_ibm_t5_LongestPalindromicSubstring: CXX_EXECUTABLE_LINKER__y2025_ibm_t5_LongestPalindromicSubstring_Debug CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir/mysrc/company2025/IBM/t5_LongestPalindromicSubstring/y2025_ibm_t5_LongestPalindromicSubstring.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t5_LongestPalindromicSubstring.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = y2025_ibm_t5_LongestPalindromicSubstring
+  TARGET_PDB = y2025_ibm_t5_LongestPalindromicSubstring.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +260,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
 
-build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
+build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges y2025_ibm_t56_MergeIntervals y2025_ibm_t5_LongestPalindromicSubstring
 
 # =============================================================================
 # Built-in targets

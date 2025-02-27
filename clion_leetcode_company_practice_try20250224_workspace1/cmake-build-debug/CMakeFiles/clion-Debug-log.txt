@@ -3,6 +3,8 @@
     -- src/y2025_ibm_t1768_MergeStringsAlternately.cpp will be compiled to bin/y2025_ibm_t1768_MergeStringsAlternately
     -- src/y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity.cpp will be compiled to bin/y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity
     -- src/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp will be compiled to bin/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
--- Configuring done (0.1s)
+    -- src/y2025_ibm_t56_MergeIntervals.cpp will be compiled to bin/y2025_ibm_t56_MergeIntervals
+    -- src/y2025_ibm_t5_LongestPalindromicSubstring.cpp will be compiled to bin/y2025_ibm_t5_LongestPalindromicSubstring
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug

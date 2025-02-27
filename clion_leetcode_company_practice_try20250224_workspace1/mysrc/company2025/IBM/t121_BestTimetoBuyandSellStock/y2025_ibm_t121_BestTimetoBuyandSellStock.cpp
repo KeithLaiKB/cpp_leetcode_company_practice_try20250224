@@ -15,7 +15,7 @@
 using namespace std;
 
 /**
- * 贪心算法
+ * 贪心算法  还有 动态规划
  *
  * You are given an array prices where prices[i] is the price of a given stock on the ith day.
  * You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
