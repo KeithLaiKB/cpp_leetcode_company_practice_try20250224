@@ -20,7 +20,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -40,7 +41,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -58,6 +60,13 @@
 					"id" : "y2025_ibm_t1768_MergeStringsAlternately::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-y2025_ibm_t1768_MergeStringsAlternately-Debug-f6d413c338a6209f012f.json",
 					"name" : "y2025_ibm_t1768_MergeStringsAlternately",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "y2025_ibm_t17_LetterCombinationsofaPhoneNumber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-y2025_ibm_t17_LetterCombinationsofaPhoneNumber-Debug-819df785fbfdb821d26a.json",
+					"name" : "y2025_ibm_t17_LetterCombinationsofaPhoneNumber",
 					"projectIndex" : 0
 				},
 				{
