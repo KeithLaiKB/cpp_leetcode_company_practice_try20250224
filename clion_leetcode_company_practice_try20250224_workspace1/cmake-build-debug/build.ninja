@@ -103,6 +103,37 @@ build y2025_ibm_t1768_MergeStringsAlternately: CXX_EXECUTABLE_LINKER__y2025_ibm_
   TARGET_PDB = y2025_ibm_t1768_MergeStringsAlternately.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+
+
+#############################################
+# Order-only phony target for y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+
+build cmake_object_order_depends_target_y2025_ibm_t17_LetterCombinationsofaPhoneNumber: phony || CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir
+
+build CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir/mysrc/company2025/IBM/t17_LetterCombinationsofaPhoneNumber/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.cpp.o: CXX_COMPILER__y2025_ibm_t17_LetterCombinationsofaPhoneNumber_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/IBM/t17_LetterCombinationsofaPhoneNumber/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.cpp || cmake_object_order_depends_target_y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+  DEP_FILE = CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir/mysrc/company2025/IBM/t17_LetterCombinationsofaPhoneNumber/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir/mysrc/company2025/IBM/t17_LetterCombinationsofaPhoneNumber
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+
+
+#############################################
+# Link the executable y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+
+build y2025_ibm_t17_LetterCombinationsofaPhoneNumber: CXX_EXECUTABLE_LINKER__y2025_ibm_t17_LetterCombinationsofaPhoneNumber_Debug CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir/mysrc/company2025/IBM/t17_LetterCombinationsofaPhoneNumber/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = y2025_ibm_t17_LetterCombinationsofaPhoneNumber
+  TARGET_PDB = y2025_ibm_t17_LetterCombinationsofaPhoneNumber.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity
 
 
@@ -260,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
 
-build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges y2025_ibm_t56_MergeIntervals y2025_ibm_t5_LongestPalindromicSubstring
+build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t17_LetterCombinationsofaPhoneNumber y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges y2025_ibm_t56_MergeIntervals y2025_ibm_t5_LongestPalindromicSubstring
 
 # =============================================================================
 # Built-in targets
