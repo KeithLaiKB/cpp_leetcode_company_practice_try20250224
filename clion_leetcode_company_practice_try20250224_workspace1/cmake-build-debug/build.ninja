@@ -257,6 +257,161 @@ build y2025_ibm_t5_LongestPalindromicSubstring: CXX_EXECUTABLE_LINKER__y2025_ibm
   TARGET_FILE = y2025_ibm_t5_LongestPalindromicSubstring
   TARGET_PDB = y2025_ibm_t5_LongestPalindromicSubstring.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target freetoplay1_1
+
+
+#############################################
+# Order-only phony target for freetoplay1_1
+
+build cmake_object_order_depends_target_freetoplay1_1: phony || CMakeFiles/freetoplay1_1.dir
+
+build CMakeFiles/freetoplay1_1.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_1.cpp.o: CXX_COMPILER__freetoplay1_1_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_1.cpp || cmake_object_order_depends_target_freetoplay1_1
+  DEP_FILE = CMakeFiles/freetoplay1_1.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_1.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/freetoplay1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/freetoplay1_1.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target freetoplay1_1
+
+
+#############################################
+# Link the executable freetoplay1_1
+
+build freetoplay1_1: CXX_EXECUTABLE_LINKER__freetoplay1_1_Debug CMakeFiles/freetoplay1_1.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_1.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/freetoplay1_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = freetoplay1_1
+  TARGET_PDB = freetoplay1_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target freetoplay1_2
+
+
+#############################################
+# Order-only phony target for freetoplay1_2
+
+build cmake_object_order_depends_target_freetoplay1_2: phony || CMakeFiles/freetoplay1_2.dir
+
+build CMakeFiles/freetoplay1_2.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_2.cpp.o: CXX_COMPILER__freetoplay1_2_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_2.cpp || cmake_object_order_depends_target_freetoplay1_2
+  DEP_FILE = CMakeFiles/freetoplay1_2.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/freetoplay1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/freetoplay1_2.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target freetoplay1_2
+
+
+#############################################
+# Link the executable freetoplay1_2
+
+build freetoplay1_2: CXX_EXECUTABLE_LINKER__freetoplay1_2_Debug CMakeFiles/freetoplay1_2.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_2.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/freetoplay1_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = freetoplay1_2
+  TARGET_PDB = freetoplay1_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target freetoplay1_3
+
+
+#############################################
+# Order-only phony target for freetoplay1_3
+
+build cmake_object_order_depends_target_freetoplay1_3: phony || CMakeFiles/freetoplay1_3.dir
+
+build CMakeFiles/freetoplay1_3.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_3.cpp.o: CXX_COMPILER__freetoplay1_3_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_3.cpp || cmake_object_order_depends_target_freetoplay1_3
+  DEP_FILE = CMakeFiles/freetoplay1_3.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_3.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/freetoplay1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/freetoplay1_3.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target freetoplay1_3
+
+
+#############################################
+# Link the executable freetoplay1_3
+
+build freetoplay1_3: CXX_EXECUTABLE_LINKER__freetoplay1_3_Debug CMakeFiles/freetoplay1_3.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_3.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/freetoplay1_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = freetoplay1_3
+  TARGET_PDB = freetoplay1_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target freetoplay1_4
+
+
+#############################################
+# Order-only phony target for freetoplay1_4
+
+build cmake_object_order_depends_target_freetoplay1_4: phony || CMakeFiles/freetoplay1_4.dir
+
+build CMakeFiles/freetoplay1_4.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_4.cpp.o: CXX_COMPILER__freetoplay1_4_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_4.cpp || cmake_object_order_depends_target_freetoplay1_4
+  DEP_FILE = CMakeFiles/freetoplay1_4.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_4.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/freetoplay1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/freetoplay1_4.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target freetoplay1_4
+
+
+#############################################
+# Link the executable freetoplay1_4
+
+build freetoplay1_4: CXX_EXECUTABLE_LINKER__freetoplay1_4_Debug CMakeFiles/freetoplay1_4.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_4.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/freetoplay1_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = freetoplay1_4
+  TARGET_PDB = freetoplay1_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target freetoplay1_5
+
+
+#############################################
+# Order-only phony target for freetoplay1_5
+
+build cmake_object_order_depends_target_freetoplay1_5: phony || CMakeFiles/freetoplay1_5.dir
+
+build CMakeFiles/freetoplay1_5.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_5.cpp.o: CXX_COMPILER__freetoplay1_5_unscanned_Debug /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_5.cpp || cmake_object_order_depends_target_freetoplay1_5
+  DEP_FILE = CMakeFiles/freetoplay1_5.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_5.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/freetoplay1_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/freetoplay1_5.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target freetoplay1_5
+
+
+#############################################
+# Link the executable freetoplay1_5
+
+build freetoplay1_5: CXX_EXECUTABLE_LINKER__freetoplay1_5_Debug CMakeFiles/freetoplay1_5.dir/mysrc/company2025/couldbedeleted/freetoplay/freetoplay1/freetoplay1_5.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/freetoplay1_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = freetoplay1_5
+  TARGET_PDB = freetoplay1_5.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -291,7 +446,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
 
-build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t17_LetterCombinationsofaPhoneNumber y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges y2025_ibm_t56_MergeIntervals y2025_ibm_t5_LongestPalindromicSubstring
+build all: phony y2025_ibm_t121_BestTimetoBuyandSellStock y2025_ibm_t1768_MergeStringsAlternately y2025_ibm_t17_LetterCombinationsofaPhoneNumber y2025_ibm_t2231_LargestNumberAfterDigitSwapsbyParity y2025_ibm_t2580_CountWaystoGroupOverlappingRanges y2025_ibm_t56_MergeIntervals y2025_ibm_t5_LongestPalindromicSubstring freetoplay1_1 freetoplay1_2 freetoplay1_3 freetoplay1_4 freetoplay1_5
 
 # =============================================================================
 # Built-in targets

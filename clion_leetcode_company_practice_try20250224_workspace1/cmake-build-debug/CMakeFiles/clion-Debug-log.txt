@@ -6,6 +6,11 @@
     -- src/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges.cpp will be compiled to bin/y2025_ibm_t2580_CountWaystoGroupOverlappingRanges
     -- src/y2025_ibm_t56_MergeIntervals.cpp will be compiled to bin/y2025_ibm_t56_MergeIntervals
     -- src/y2025_ibm_t5_LongestPalindromicSubstring.cpp will be compiled to bin/y2025_ibm_t5_LongestPalindromicSubstring
+    -- src/freetoplay1_1.cpp will be compiled to bin/freetoplay1_1
+    -- src/freetoplay1_2.cpp will be compiled to bin/freetoplay1_2
+    -- src/freetoplay1_3.cpp will be compiled to bin/freetoplay1_3
+    -- src/freetoplay1_4.cpp will be compiled to bin/freetoplay1_4
+    -- src/freetoplay1_5.cpp will be compiled to bin/freetoplay1_5
 -- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/kt/MyWorkspace/MyGitProgram/jetbrains_workspace/cpp_leetcode_company_practice_try20250224/clion_leetcode_company_practice_try20250224_workspace1/cmake-build-debug
