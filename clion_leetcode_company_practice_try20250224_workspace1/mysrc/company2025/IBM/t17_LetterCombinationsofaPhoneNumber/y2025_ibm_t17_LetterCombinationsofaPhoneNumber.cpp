@@ -64,194 +64,85 @@ public:
 
     }
 
-    void myOutput_VectorBVectorBintBB(vector<vector<int>>& nums, int st_indx, int ed_indx){
+    template <typename T>
+    void myOutput_VectorBtB(vector<T>& nums, int st_indx, int ed_indx){
         for(int i=st_indx;i<=ed_indx;i++){
-            for(int j=0;j<=nums[i].size()-1;j++){
-
-                cout<<nums[i][j]<<"\t";
-                if(j==nums[i].size()-1){
-                    cout<<endl;
-                }
-
+            cout<<nums[i]<<"\t";
+            if(i==ed_indx){
+                cout<<endl;
             }
         }
     }
 
 
-    /*
-     * 1. 确立dp的 意义
-     * 先假设一个意义(不一定对的意义)
-     *  假设 意义 :
-     *      定义dp[i][j]装 i~j这个串中含有的回文子串的最长的长度
-     *
-     *  2. 确立推导顺序
-     *      如果 s[i]==s[j]
-     *          如果 j-i==1 : bb
-     *              dp[i][j]=2
-     *          如果 j-i>=2 : bab or baab
-     *              如果里面的子串本身是回文, 也就是dp[i+1][j-1]的值就是 长度:     (j-1)-(i+1)+1==dp[i+1][j-1]
-     *                  dp[i][j]=dp[i+1][j-1]+2
-     *              如果里面的子串本身不是回文:                                  (j-1)-(i+1)+1==dp[i+1][j-1]
-     *                  dp[i][j]=dp[i+1][j-1]
-     *      如果 s[i]!=s[j]
-     *          如果 j-i==1 : bc
-     *              dp[i][j]=1
-     *          如果 j-i>=1 : bac or babc
-     *              dp[i][j]=max [ dp[i][j-1], dp[i+1][j] ]
-     *
-     *  3. 初始化dp数组
-     *          b		    a		    a		    b		    c
-     *  b	    1		[0,1]		[0,2]		[0,3]		[0,4]
-     *  a	[1,0]		    1		[1,2]		[1,3] 	    [1,4]
-     *  a	[2,0]		[2,1]		1		    [2,3] 	    [2,4]
-     *  b	[3,0]		[3,1]		[3,2]		1 		    [3,4]
-     *  c	[4,0]		[4,1]		[4,2]		[4,3] 	        1
 
-     *
-     *  4. 确立遍历顺序
-     *
-     *  5. 推导dp数组, 自己要写出来
-     *
-     * 注意一下 我这个方法是基础思想, 填表完全没问题 是对的!!!!!!!!!!!!!!!!!!!!!!!
-     * 只是题目要求我 要拿到 字符串, 所以我需要 在这基础上填一点变量什么的记录就好了
-     */
-    string longestPalindrome_fillform(string s) {
-        // s.size * s.size 的dp数组
-        vector<vector<int>> dp(s.size(), vector<int>(s.size()));
-        //
-        //
-        //初始化
-        for(int i=0;i<=s.size()-1;i++){
-            dp[i][i]=1;
+
+    vector<string> pad1={"",         //0
+                         "",         //1
+                         "abc",      //2
+                         "def",      //3
+                         "ghi",      //4
+                         "jkl",      //5
+                         "mno",      //6
+                         "pqrs",     //7
+                         "tuv",      //8
+                         "wxyz"      //9
+    };
+    //
+    // 假设输入"23"
+    //
+    //                                                                                         digits[2]==> 集合{"def"}
+    //                                      |                                                       |                                                       |
+    //                                      |取d                                                    |取e                                                     |取f
+    //   第一层的结果:                        "d"                                                    "e"                                                      "f"
+    //                      |               |               |                       |               |               |                       |               |               |
+    //                      |(取g)           |(取h)          |(取i)                  |(取g)           |(取h)          |(取i)                  |(取g)           |(取h)          |(取i)
+    //   第一层的结果:       "dg"             "dh"            "di"                   "eg"            "eh"            "ei"                     "fg"            "fh"            "fi"
+    //
+    //
+    void backtracking(string digits, int now_digit_idx, string rs_ele,vector<string> &vec_rs){
+
+        //limit
+        // 这题目很好的告诉了你 不是动不动就size-1的
+        if(now_digit_idx==digits.size()){
+            vec_rs.push_back(rs_ele);
+            return;
         }
+        // for最底层的对象, 所以不是for 那个digits  例如“23”
+        // 而是 for 那个pad 中的每个key里的content, 例如"abc" "def" 那些
+        int key_num = digits[now_digit_idx]-'0';
+        string key_content = pad1[key_num];
+        //
+        for(int i=0;i<=key_content.size()-1;i++){
+            //deal
+            rs_ele.push_back(key_content[i]);
 
-        for(int i =s.size()-1;i>=0;i--){
-            for(int j =i+1;j<=s.size()-1;j++){
-                //b[.....]b
-                if(s[i]==s[j]){
+            //backtracking
+            backtracking(digits, now_digit_idx+1 ,rs_ele, vec_rs);
 
-                    //bb
-                    if(j-i==1){
-                        dp[i][j]=2;
-                    }
-                    //bab or baab
-                    else if(j-i>=2){
-                        //如果里面的子串本身是回文, 这个子串的dp值就是 这个子串的长度
-                        if((j-1)-(i+1)+1==dp[i+1][j-1]){
-                            dp[i][j]=dp[i+1][j-1]+2;
-                        }
-                        //如果里面的子串本身不是回文
-                        else if((j-1)-(i+1)+1!=dp[i+1][j-1]){
-                            dp[i][j]=dp[i+1][j-1];
-                        }
-                    }
-
-                }
-                //b[.....]c
-                else if(s[i]!=s[j]){
-
-                    //bc
-                    if(j-i==1){
-                        dp[i][j]=1;
-                    }
-                    //bac or babc
-                    else if(j-i>=2){
-                        dp[i][j]=max ( dp[i][j-1], dp[i+1][j] );
-                    }
-                }
-
-
-            }
+            //pop
+            // 例如 我们的"23"例子中,
+            // 假设 当前的情况是 我们经过了d 现在深入到当前这个key_content[i]=g
+            // 在上面的backtracking当中 我们已经把 “dg” 放进了rs
+            // 此时我们要把 “dg”中的 "g"弹出, 准备装 下一个key_content[i+1]=h, 从而获得 "dh"
+            rs_ele.pop_back();
         }
+    }
+    vector<string> letterCombinations(string digits) {
+        vector<string> rs={};
+        rs.reserve(100);
 
-        myOutput_VectorBVectorBintBB(dp,0, dp.size()-1);
+        int st_digit_idx= 0;
 
+        if(digits==""){
+            return {};
+        }
+        string rs_ele("");
 
-        return "";
+        backtracking(digits,st_digit_idx,rs_ele,rs);
+        return rs;
     }
 
-    // 我这个完全是抄了上面的填表, 然后在这个基础上加点变量罢了
-    string longestPalindrome(string s) {
-        // s.size * s.size 的dp数组
-        vector<vector<int>> dp(s.size(), vector<int>(s.size()));
-        //
-        //-------------与填表 相比增加了--------------------
-        //
-        int rs_st_idx=-1;
-        int rs_ed_idx=-1;
-        int rs_max_len=1;
-        //
-        //-----------------------------------------------
-        //
-        //
-        //初始化
-        for(int i=0;i<=s.size()-1;i++){
-            dp[i][i]=1;
-        }
-
-        for(int i =s.size()-1;i>=0;i--){
-            for(int j =i+1;j<=s.size()-1;j++){
-                //b[.....]b
-                if(s[i]==s[j]){
-
-                    //bb
-                    if(j-i==1){
-                        dp[i][j]=2;
-                    }
-                        //bab or baab
-                    else if(j-i>=2){
-                        //如果里面的子串本身是回文, 这个子串的dp值就是 这个子串的长度
-                        if((j-1)-(i+1)+1==dp[i+1][j-1]){
-                            dp[i][j]=dp[i+1][j-1]+2;
-                        }
-                            //如果里面的子串本身不是回文
-                        else if((j-1)-(i+1)+1!=dp[i+1][j-1]){
-                            dp[i][j]=dp[i+1][j-1];
-                        }
-                    }
-
-                }
-                //b[.....]c
-                else if(s[i]!=s[j]){
-
-                    //bc
-                    if(j-i==1){
-                        dp[i][j]=1;
-                    }
-                    //bac or babc
-                    else if(j-i>=2){
-                        dp[i][j]=max ( dp[i][j-1], dp[i+1][j] );
-                    }
-                }
-                //
-                //-------------与填表 相比增加了--------------------
-                if(dp[i][j]>rs_max_len){
-                    rs_st_idx=i;
-                    rs_ed_idx=j;
-                    rs_max_len= rs_ed_idx-rs_st_idx+1;
-                    cout<<dp[i][j]<<endl;
-                    cout<<s.substr(rs_st_idx,rs_max_len)<<endl;
-                }
-
-            }
-        }
-
-        myOutput_VectorBVectorBintBB(dp,0, dp.size()-1);
-
-        //如果指针没动过, 导致rs_st_idx=rs_max_len=-1
-        //  从而使得substr会出现问题, 所以我们这里就直接给第一个字符就好
-        //
-        // 情况可能      :s只有一个字符 所以导致第二层循环 都进不去
-        // 情况也可能    :bc,导致 他根本不会经过 if(dp[i][j]>rs_max_len)
-        //                  从而获得修改后的 rs_st_idx 和 rs_ed_idx
-        if(rs_st_idx==-1&&rs_ed_idx==-1&&rs_max_len){
-            return string(1,s[0]);
-        }
-        else{
-            return s.substr(rs_st_idx,rs_max_len);
-        }
-
-    }
 };
 
 /**
@@ -268,12 +159,13 @@ int main() {
     //string str1 = "baabc";
     //string str1 = "cbbd";
     //string str1 = "a";
-    string str1 = "ac";
+    string str1 = "23";
 
     //int rs1 = solut1->maxProfit_greedy(vec1);
-    string rs1 = solut1->longestPalindrome(str1);
+    vector<string> rs1 = solut1->letterCombinations(str1);
 
     cout<<"result:"<<endl;
-    cout << rs1<<endl;
+    //cout << rs1<<endl;
+    solut1->myOutput_VectorBtB(rs1,0,rs1.size()-1);
     return 0;
 }
